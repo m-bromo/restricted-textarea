@@ -18,6 +18,11 @@ main {
     box-shadow: 0 0 0 2px cornflowerblue;
 }
 
+.text-input.alert {
+    border-color: red;
+    box-shadow: 0 0 0 2px red;
+}
+
 .char-counter {
     font-size: large;
 }

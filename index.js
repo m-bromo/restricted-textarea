@@ -9,8 +9,10 @@ function setCharCount() {
 
     if (currentCount === charLimit) {
         charCounter.classList.add("alert")
+        textInput.classList.add("alert")
     } else {
         charCounter.classList.remove("alert")
+        textInput.classList.remove("alert")
     }
 }
 
